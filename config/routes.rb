@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'private/test'
   get 'current_user/index'
   # devise_for :users
