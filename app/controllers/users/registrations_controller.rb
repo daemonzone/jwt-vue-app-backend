@@ -11,11 +11,11 @@ module Users
     end
 
     def register_success
-      render json: { message: 'Signed up.' }
+      render json: { message: "Signed up." }
     end
 
     def register_failed
-      render json: { message: 'Signed up failure.' }
+      render json: { message: "Signed up failure." }
     end
   end
 end

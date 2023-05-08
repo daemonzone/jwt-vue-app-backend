@@ -15,11 +15,11 @@ module Users
     end
 
     def log_out_success
-      render json: { message: 'Logged out.' }, status: :ok
+      render json: { message: "Logged out." }, status: :ok
     end
 
     def log_out_failure
-      render json: { message: 'Logged out failure.' }, status: :unauthorized
+      render json: { message: "Logged out failure." }, status: :unauthorized
     end
   end
 end
